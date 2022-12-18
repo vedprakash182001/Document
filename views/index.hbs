@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/statics/css/style.css">
+
+    <title>Document</title>
+  </head>
+  <body class="" >
+    <div class="container1 background3">
+
+    {{!-- navbar  --}}
+      {{>navbar  stat = stat username1 =  username }}
+
+    <div class="container py-5">
+      <p class="index" >Welcome to our website :=> MyDOcs</p>
+      <p class="index-text" >Here you can upload your Important document and Images.... <br> There is lot of feartue, here you can view, download and delete your document as your choice. <br>
+      For all these thing you first create your account </p>
+    </div>
+    <div class="container index-image ">
+      <img src="/statics/images/1.jpg" alt="">
+    </div>
+
+
+    {{!-- footer  --}}
+      {{>footer}}
+    </div>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
